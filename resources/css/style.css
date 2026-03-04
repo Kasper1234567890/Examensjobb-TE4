@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+h1 {
+	color: black;
+}
+
+.navBtn {
+	@apply inline-block w-30 bg-[#000000] p-5 text-center text-white;
+}
+
+/*
+.btn {
+    @apply bg-black text-white rounded-full p-2;
+}*/
