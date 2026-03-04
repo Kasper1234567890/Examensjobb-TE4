@@ -1,10 +1,7 @@
-import { Head, Link, usePage } from "@inertiajs/react";
-import { dashboard, /*login,*/ register } from "@/routes";
+import { Head } from "@inertiajs/react";
 import Logo from "../../assets/Speed_Bricks_Logo.png";
 
-export default function Login({ canRegister = true }: { canRegister?: boolean }) {
-	const { auth } = usePage().props;
-
+export default function Login() {
 	return (
 		<>
 			<Head title="Home">
